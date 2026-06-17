@@ -1,0 +1,74 @@
+[
+  {
+    "plantId": 1,
+    "plantName": "Snake Plant",
+    "category": "Air Purifier",
+    "price": 18,
+    "rating": 4.8,
+    "availableStock": 10,
+    "careLevel": "Easy",
+    "description": "A hardy plant that purifies indoor air and thrives in low light, perfect for bedrooms and quiet corners.",
+    "image": "https://images.unsplash.com/photo-1593482892290-f54927ae2b0b?auto=format&fit=crop&w=900&q=80",
+    "providerName": "UrbanGreen Studio"
+  },
+  {
+    "plantId": 2,
+    "plantName": "Monstera Deliciosa",
+    "category": "Decorative",
+    "price": 34,
+    "rating": 4.9,
+    "availableStock": 7,
+    "careLevel": "Medium",
+    "description": "A statement plant with dramatic split leaves that instantly brings a tropical feeling into a living space.",
+    "image": "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?auto=format&fit=crop&w=900&q=80",
+    "providerName": "Leaf & Loom"
+  },
+  {
+    "plantId": 3,
+    "plantName": "Peace Lily",
+    "category": "Flowering",
+    "price": 22,
+    "rating": 4.7,
+    "availableStock": 12,
+    "careLevel": "Easy",
+    "description": "A graceful indoor bloomer with glossy leaves and white flowers that prefers soft light and weekly watering.",
+    "image": "https://images.unsplash.com/photo-1593691509543-c55fb32e5cee?auto=format&fit=crop&w=900&q=80",
+    "providerName": "BloomNest Care"
+  },
+  {
+    "plantId": 4,
+    "plantName": "Fiddle Leaf Fig",
+    "category": "Statement Plant",
+    "price": 46,
+    "rating": 4.6,
+    "availableStock": 5,
+    "careLevel": "Advanced",
+    "description": "Tall, sculptural foliage for bright interiors. It rewards consistent light, rotation, and careful watering.",
+    "image": "https://images.unsplash.com/photo-1604762525953-13c07f3ff01f?auto=format&fit=crop&w=900&q=80",
+    "providerName": "Planteria House"
+  },
+  {
+    "plantId": 5,
+    "plantName": "Pothos Marble Queen",
+    "category": "Trailing",
+    "price": 16,
+    "rating": 4.9,
+    "availableStock": 16,
+    "careLevel": "Easy",
+    "description": "A fast-growing trailing plant with marbled leaves that looks beautiful on shelves, desks, and hanging planters.",
+    "image": "https://images.unsplash.com/photo-1600411832986-5a4477b64a1c?auto=format&fit=crop&w=900&q=80",
+    "providerName": "Root & Rhythm"
+  },
+  {
+    "plantId": 6,
+    "plantName": "ZZ Plant",
+    "category": "Low Light",
+    "price": 28,
+    "rating": 4.8,
+    "availableStock": 9,
+    "careLevel": "Easy",
+    "description": "A glossy, drought-tolerant plant that stays handsome even when sunlight and attention are limited.",
+    "image": "https://images.unsplash.com/photo-1632207691143-643e2a9a9361?auto=format&fit=crop&w=900&q=80",
+    "providerName": "Calm Canopy"
+  }
+]

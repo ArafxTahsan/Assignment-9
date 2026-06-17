@@ -1,0 +1,26 @@
+mutation CreateProject($name: String!, $description: String) @auth(level: USER) {
+  project_insert(data: { name: $name, description: $description })
+}
+
+mutation CreateTestSuite($name: String!, $projectId: UUID!) @auth(level: USER) {
+  testSuite_insert(data: { name: $name, project: { id: $projectId } })
+}
+
+query ListTestCasesBySuite($suiteId: UUID!) @auth(level: USER) {
+  testCases(where: { suiteId: { eq: $suiteId } }) {
+    id
+    title
+    steps
+    expectedResult
+  }
+}
+
+mutation LogTestExecution($status: String!, $notes: String, $testCaseId: UUID!) @auth(level: USER) {
+  testExecution_insert(
+    data: {
+      status: $status
+      notes: $notes
+      testCase: { id: $testCaseId }
+    }
+  )
+}

@@ -1,0 +1,32 @@
+type Project @table {
+  name: String!
+  description: String
+  createdAt: Timestamp
+}
+
+type TestSuite @table {
+  name: String!
+  project: Project!
+}
+
+type TestCase @table {
+  title: String!
+  steps: String!
+  expectedResult: String!
+  suite: TestSuite!
+}
+
+type TestExecution @table {
+  status: String!
+  notes: String
+  executedAt: Timestamp
+  testCase: TestCase!
+}
+
+type Bug @table {
+  title: String!
+  severity: String!
+  description: String
+  status: String
+  testExecution: TestExecution!
+}

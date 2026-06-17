@@ -1,0 +1,16 @@
+mutation CreateSeedData @transaction {
+  project_insert(data: {
+    name: "Alpha Project",
+    description: "Initial research project"
+  })
+  testSuite_insert(data: {
+    name: "Unit Tests",
+    project: {id: "00000000-0000-0000-0000-000000000000"}
+  })
+  testCase_insert(data: {
+    title: "Login Test",
+    steps: "Enter user credentials and click login",
+    expectedResult: "User is redirected to dashboard",
+    suite: {id: "00000000-0000-0000-0000-000000000000"}
+  })
+}
