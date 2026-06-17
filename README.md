@@ -18,6 +18,21 @@ npm install
 npm run dev
 ```
 
+## Project structure & deploy
+
+- This repository's web app is at the repo root. To run locally or deploy, use the root folder.
+
+To build for production and deploy (Firebase Hosting):
+
+```bash
+npm install
+cp .env.example .env   # fill with your Firebase config
+npm run build
+firebase deploy --only hosting
+```
+
+If you prefer GitHub Pages, push the `dist/` folder or use `gh-pages` to serve the `dist` output.
+
 ## Features
 
 - React Router routes with protected plant details and profile pages.

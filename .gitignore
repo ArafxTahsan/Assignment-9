@@ -1,1 +1,7 @@
 node_modules
+dist
+.env
+.firebase
+/.firebaserc
+/.firebase/
+.DS_Store
